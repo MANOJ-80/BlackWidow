@@ -4,7 +4,7 @@
 
 
 ## Overview
-ReconX is an automated reconnaissance tool designed for bug bounty hunters and penetration testers. It streamlines the reconnaissance process by executing various scanning tools in parallel using Python's `asyncio`. 
+BlackWidow is an automated reconnaissance tool designed for bug bounty hunters and penetration testers. It streamlines the reconnaissance process by executing various scanning tools in parallel using Python's `asyncio`. 
 
 ## Features
 - **Automated Subdomain Enumeration** (Subfinder, Amass)
@@ -39,8 +39,8 @@ Make sure you have the following tools installed on your system:
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/ReconX.git
-cd ReconX
+git clone https://github.com/MANOJ-80/BlackWidow.git
+cd BlackWidow
 ```
 
 ### Install Python Dependencies
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 ## Usage
 ### Running ReconX
 ```bash
-python reconx.py -d example.com
+python recon_automation.py -d example.com
 ```
 
 ### Command Line Arguments
